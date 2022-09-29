@@ -18,14 +18,14 @@ a:hover {
     cursor: pointer;
 }
 
-#page-loading-blocs-notifaction {
+/*#page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
     bottom: 0;
     width: 100%;
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
-}
+}*/
 
 .bloc {
     width: 100%;
@@ -80,7 +80,7 @@ a:hover {
     background: top no-repeat;
 }
 
-/*.bloc-bg-texture::before {
+.bloc-bg-texture::before {
     content: "";
     background-size: 2px 2px;
     position: absolute;
@@ -88,12 +88,12 @@ a:hover {
     bottom: 0;
     left: 0;
     right: 0;
-}*/
+}
 
-/*.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
-}*/
+.texture-paper::before {
+    background: url("img/agence-la-panthere.webp");
+    background-size:100%;
+}
 
 .b-parallax {
     background-attachment: fixed;
@@ -195,7 +195,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgb(0, 0, 0);
 }
 
 .d-bloc .panel button:hover,
@@ -516,7 +516,6 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -704,6 +703,21 @@ p {
     margin: auto;
 }
 
+.contact {
+    max-width: 500px;
+    margin:auto;
+}
+
+.email {
+    padding-bottom: 20px;
+    padding-right: 0px;
+    padding-left: 40px;
+}
+
+.address {
+    padding-bottom: 20px;
+}
+
 h2 {
     font-size: 22px;
     line-height: 1.4em;
@@ -809,20 +823,12 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
-
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
-}
-
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
@@ -903,8 +909,10 @@ h4 {
     h6,
     p,
     #disqus_thread {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
+        /*padding-left: 10px!important;
+        padding-right: 10px!important;*/
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .b-parallax {
         background-attachment: scroll;
@@ -1027,17 +1035,17 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .email {
+        padding-bottom: 0;
+    }
+    .bloc-mob-center-text {
+        text-align: center;
+    }
 }
 
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
-    }
-}
-
-@media (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
     }
 }
