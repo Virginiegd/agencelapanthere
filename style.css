@@ -18,14 +18,17 @@ a:hover {
     cursor: pointer;
 }
 
-/*#page-loading-blocs-notifaction {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
-}*/
+ul {
+    list-style-type: none;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.normal {
+    font-style: normal;
+}
 
 .bloc {
     width: 100%;
@@ -676,7 +679,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -710,8 +713,8 @@ p {
 
 .email {
     padding-bottom: 20px;
-    padding-right: 0px;
-    padding-left: 40px;
+    padding-right: 10px;
+    padding-left: 30px;
 }
 
 .address {
