@@ -704,6 +704,7 @@ p {
 .social {
     max-width: 400px;
     margin: auto;
+    padding-left: 0;
 }
 
 .contact {
@@ -713,8 +714,6 @@ p {
 
 .email {
     padding-bottom: 20px;
-    padding-right: 10px;
-    padding-left: 30px;
 }
 
 .address {
@@ -754,6 +753,7 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    font-weight: 700;
 }
 
 .portfolio-thumb {
@@ -788,7 +788,9 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #C34709;
+    background-color: #F3976C;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    
 }
 
 .tc-white {
@@ -796,12 +798,14 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #C34709;
-    color: #FFFFFF!important;
+    background: #F3976C;
+    color: #ffffff!important;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-weight: 700;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #f04f04!important;
+    background: #c27956!important;
     color: #FFFFFF!important;
 }
 
@@ -846,6 +850,12 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+  .portfolio-thumb {
+    margin: auto;
+  }
+  .portfolio-row {
+    padding-left: 0;
+  }
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
@@ -900,6 +910,12 @@ h4 {
 }
 
 @media (max-width: 767px) {
+    .contact {
+        padding-left: 0;
+    }
+    .social {
+        padding-left: 0;
+    }
     .page-container {
         overflow-x: hidden;
         position: relative;
