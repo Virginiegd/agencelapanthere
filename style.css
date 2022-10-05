@@ -642,6 +642,12 @@ h3 {
     background: #c34709a4 !important;
     color: #fff !important;
 }
+.ltc-atomic-tangerine {
+    color:#f3976c !important;
+}
+.ltc-atomic-tangerine:hover {
+    color: #c27956 !important;
+}
 .icon-dark-slate-blue {
     color: #364577;
     border-color: #364577;
