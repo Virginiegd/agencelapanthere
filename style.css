@@ -54,6 +54,7 @@ ul {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    background-size: auto;
     position: relative;
 }
 .bloc-lg {
@@ -97,9 +98,9 @@ ul {
     left: 0;
     right: 0;
 }
-/*.texture-paper::before {
+.texture-paper::before {
     background: url(img/agence-la-panthere.webp) 0 0/100%;
-}*/
+}
 .b-parallax {
     background-attachment: fixed;
 }
@@ -605,7 +606,7 @@ h3 {
     margin-top: 24px;
 }
 .white {
-    font-weight: 800;
+    font-weight: 700;
 }
 .portfolio-thumb {
     margin-bottom: 24px;
@@ -632,23 +633,14 @@ h3 {
     background-color: #364577;
 }
 .bgc-atomic-tangerine {
-    background-color: #f3976c;
-    text-shadow: #000 0.2em 0.2em 0.3em;
+    background-color: #C34709;
 }
 .btn-atomic-tangerine {
-    background: #f3976c;
-    text-shadow: #000 0.3em 0.3em 0.4em;
-    font-weight: 800;
+    background: #c34709;
 }
 .btn-atomic-tangerine:hover {
-    background: #c27956 !important;
+    background: #c34709a4 !important;
     color: #fff !important;
-}
-.ltc-atomic-tangerine {
-    color: #f3976c !important;
-}
-.ltc-atomic-tangerine:hover {
-    color: #c27956 !important;
 }
 .icon-dark-slate-blue {
     color: #364577;
@@ -716,10 +708,6 @@ h3 {
     }
 }
 @media (max-width: 767px) {
-    .contact,
-    .social {
-        padding-left: 0;
-    }
     .page-container {
         overflow-x: hidden;
         position: relative;
