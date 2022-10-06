@@ -420,6 +420,7 @@ p {
     bottom: 20px;
     right: 20px;
     z-index: 500;
+    opacity: 0;
 }
 .scrollToTop span {
     margin-top: 6px;
