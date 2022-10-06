@@ -98,6 +98,9 @@ ul {
     left: 0;
     right: 0;
 }
+.texture-paper::before {
+    background: url(img/agence-la-panthere.webp) 0 0/100%;
+}
 .b-parallax {
     background-attachment: fixed;
 }
