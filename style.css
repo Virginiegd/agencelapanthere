@@ -266,7 +266,7 @@ ul {
     margin-top: 10px;
 }
 .navbar-toggle:hover {
-    background: 0 0; /*!important*/
+    background: 0 0;
 }
 .navbar-toggle .icon-bar {
     background-color: #000;
@@ -319,7 +319,7 @@ ul {
     }
 }
 .nav > li > .dropdown a {
-    background: 0 0; /*!important*/
+    background: 0 0;
     display: block;
     padding: 14px 15px;
 }
